@@ -18,3 +18,8 @@ My_Name="GIO"
 My_age=13
 My_Mentors_name="NIKa"
 i_Love="GOA"
+print(studying_at)
+print(My_Name)
+print(My_age)
+print(My_Mentors_name)
+print(i_Love)
