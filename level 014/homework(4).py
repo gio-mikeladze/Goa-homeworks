@@ -1,4 +1,4 @@
-#logical operator საჭიროა მანქანებისთვის რთული სიტუაციების შესაფასებლად.
+#logical operator საჭიროა მანქანებისთვის რთული სიტუაციების შესაფასებლად,.
 print(True and True)
 print(True or False)
 print(True or True)
