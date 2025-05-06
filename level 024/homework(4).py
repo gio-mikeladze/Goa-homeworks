@@ -1,12 +1,12 @@
 hidden_number=5
-atempts=3
-while atempts>0:
+attempts=3
+number_guessed=0
+while hidden_number!=number_guessed and attempts>=0:
     number_guessed=int(input("Enter a number:"))
-    if hidden_number == number_guessed:
-        print("you win")
-    else:
-        atempts=atempts-1
-    if hidden_number!=number_guessed:
-        print("wrong guess atempts left:",(atempts))
-        if atempts==0:
-            print("you lose")
+    if number_guessed!=hidden_number:
+       print("wrong you have left guesses:" , (attempts))
+    attempts=attempts-1
+if hidden_number!=number_guessed:
+    print("you lose")
+else:
+    print("you win")
